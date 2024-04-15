@@ -1,0 +1,63 @@
+<h1>상품 주문서</h1>
+<form>
+    <fieldset>
+    <legend>개인 정보</legend>
+    <ul>
+    <li>
+    <label for="name">주문자 이름</label>
+    <input type="text"id="name">
+    </li>
+    <li>
+        <label for="name">전화번호</label>
+        <input type="text" id="uid" placeholder="번호만 입력">
+    </li>
+    </ul>
+    </fieldset>
+    <fieldset>
+    <legend>배송정보</legend>
+    <ul>
+    <li>
+        <label>배송 옵션 : <input type="radio" name="subject" value="speaking" checked>기존 배송지</label>
+        <label><input type="radio" name="subject" value="grammar">새 배송지</label>
+    </li>
+    <li>
+        <label for="name">주소</label>
+        <input type="text"id="name">
+    </li>
+    <li>
+        <label for="name">요청사항</label>
+        <select>
+            <optgroup>  
+            <option value="grammar" label="요청사항을 선택하세요."></option>
+            <option value="grammar" label="배송 전에 미리 연락 바랍니다"></option>
+            <option value="grammar" label="부재시 경비실에 맡겨주세요"></option>
+            <option value="grammar" label="부재시 전화 주시거나 문자 남겨주세요"></option>
+        </optgroup>
+    </select>
+    </li>
+    </ul>
+</fieldset>
+<fieldset>
+    <legend>주문 정보</legend>
+
+    <input type="checkbox" value="grm">방울토마토1kg 10,000원8,000원<br>
+    <input type="checkbox" value="grm">방울토마토2kg 20,000원16,000원<br>
+    <input type="checkbox" value="grm">방울토마토3kg 30,000원24,000원<br>
+    <label for="name">기타사항</label>
+    <input type="text"size="20"id="name">
+    
+    </fieldset>
+    <fieldset>
+        <legend>결제 수단</legend>
+        <ul>
+        <li>
+        <label for="name">주문자 이름</label>
+        <input type="text"id="name">
+        </li>
+        <li>
+            <label for="name">전화번호</label>
+            <input type="text" id="uid" placeholder="번호만 입력">
+        </li>
+        </ul>
+        </fieldset>
+</field>
