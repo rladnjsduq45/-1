@@ -1,3 +1,14 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
 <h1>상품 주문서</h1>
 <form>
     <fieldset>
@@ -40,23 +51,27 @@
 <fieldset>
     <legend>주문 정보</legend>
 
-    <input type="checkbox" value="grm">방울토마토1kg 10,000원8,000원<br>
-    <input type="checkbox" value="grm">방울토마토2kg 20,000원16,000원<br>
-    <input type="checkbox" value="grm">방울토마토3kg 30,000원24,000원<br>
-    <label for="name">기타사항</label>
-    <input type="text"size="20"id="name">
+    <label><input type="checkbox">방울토마토1kg <s>10,000원</s><Strong>8,000원</Strong></label>
+    <lebel><input type="number">박스</lebel><br>
+    <label><input type="checkbox">방울토마토2kg <s>20,000원</s><Strong>16,000원</Strong></label>
+    <lebel><input type="number">박스</lebel><br>
+    <label><input type="checkbox">방울토마토3kg <s>30,000원</s><Strong>24,000원</Strong></label>
+    <lebel><input type="number">박스</lebel><br>
+    <label for="comment" class="title"> 메모</label>
+    <textarea cols="40" rows="3" id="comment"></textarea>
     
     </fieldset>
     <fieldset>
         <legend>결제 수단</legend>
         <ul>
         <li>
-        <label for="name">주문자 이름</label>
-        <input type="text"id="name">
+        <label><input type="radio" name="subject" value="speaking" checked>계좌이체</label>
         </li>
         <li>
-            <label for="name">전화번호</label>
-            <input type="text" id="uid" placeholder="번호만 입력">
+        <label><input type="radio" name="subject" value="speaking" checked>계좌이체</label>
+        </li>
+        <li>
+        <label><input type="radio" name="subject" value="speaking" checked>계좌이체</label>
         </li>
         </ul>
         </fieldset>
